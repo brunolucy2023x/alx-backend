@@ -1,36 +1,33 @@
-Curriculum <br>
-**Short Specializations** <br>
 
-# 0x00. Pagination
+0x00. Pagination
+Back-end
+ Weight: 1
+ Project will start Oct 24, 2024 6:00 AM, must end by Oct 29, 2024 6:00 AM
+ Checker was released at Oct 25, 2024 12:00 PM
+ An auto review will be launched at the deadline
+  
 
-`Back-end` `REST API Design: Pagination` `HATEOAS`
+Resources
+Read or watch:
 
-#### Concepts
+REST API Design: Pagination
+HATEOAS
+Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-_For this project, look at these concepts:_
-
-* [Back-end concepts](https://www.intranet.alxswe.com/concepts/557)
-
-## Resources
-
-* [REST API Design: Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#pagination)
-* [HATEOAS](https://www.en.wikipedia.org/wiki/HATEOAS)
-
-## Requirements
-
-* All files interpreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
-* All files should end with a new line
-* First line of files exactly `#!/usr/bin/env python3`
-* Mandatory `README.md` file
-* Code use the `pycodestyle` style (version 2.5.*)
-* Length of file tested using `wc`
-* All modules should be documented (`python3 -c 'print(__import__("my_module").__doc__)'`)
-* All functions should be documented (`python3 -c 'print(__import__("my_module").my_function.__doc__)'`)
-* A documentation is a real sentence explaining purpose of module, function, or method (length will be verified)
-* All functions and coroutines must be type-annotated
-
-## Setup: `Popular_Baby_Names.csv`
-
-[use this data file](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2020/5) for your project <br>
-
-### Finally...
+How to paginate a dataset with simple page and page_size parameters
+How to paginate a dataset with hypermedia metadata
+How to paginate in a deletion-resilient manner
+Requirements
+All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
+All your files should end with a new line
+The first line of all your files should be exactly #!/usr/bin/env python3
+A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the pycodestyle style (version 2.5.*)
+The length of your files will be tested using wc
+All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)'
+A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+All your functions and coroutines must be type-annotated.
+Setup: Popular_Baby_Names.csv
+use this data file for your project
