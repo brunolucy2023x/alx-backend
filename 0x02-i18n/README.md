@@ -1,36 +1,31 @@
-Curriculum <br>
-**Short Specializations** <br>
+0x02. i18n
+Back-end
+ Weight: 1
+ Project will start Nov 5, 2024 6:00 AM, must end by Nov 6, 2024 6:00 AM
+ Checker was released at Nov 5, 2024 12:00 PM
+ Manual QA review must be done (request it when you are done with the project)
+ An auto review will be launched at the deadline
 
-# 0x02. i18n
 
-`Back-end`
+Resources
+Read or watch:
 
-#### Concepts
-
-_For this project, look at these concepts:_
-
-* [Back-end concepts](https://www.intranet.alxswe.com/concepts/557)
-
-## Resources
-
-**Read or watch:**
-
-* [Flask-Babel](https://www.flask-babel.tkte.ch)
-* [Flask i18n tutorial](https://www.blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
-* [pytz](https://www.pytz.sourceforge.net)
-
-## Requirements
-
-* All files interpreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
-* All files should end with a new line
-* First line of files exactly `#!/usr/bin/env python3`
-* Mandatory `README.md` file
-* Code use the `pycodestyle` style (version 2.5.*)
-* Length of file tested using `wc`
-* All modules should be documented (`python3 -c 'print(__import__("my_module").__doc__)'`)
-* All classes should have documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
-* All functions and methods should be documented (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
-* A documentation is a real sentence explaining purpose of module, function, or method (length will be verified)
-* All functions and coroutines must be type-annotated
-
-### Finally...
+Flask-Babel
+Flask i18n tutorial
+pytz
+Learning Objectives
+Learn how to parametrize Flask templates to display different languages
+Learn how to infer the correct locale based on URL parameters, user settings or request headers
+Learn how to localize timestamps
+Requirements
+All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
+All your files should end with a new line
+A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the pycodestyle style (version 2.5)
+The first line of all your files should be exactly #!/usr/bin/env python3
+All your *.py files should be executable
+All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+All your functions and methods should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+All your functions and coroutines must be type-annotated.
